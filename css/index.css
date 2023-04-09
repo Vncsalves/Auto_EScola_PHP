@@ -1,18 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
 
 }
 body{
+  min-height: 100%;  
+  font-family: 'Kanit', sans-serif;
 }
-#navbar{
-    width: 100%;
-    height: 2rem;
-    background-color: #4895ef;
+#banner{
+    width:100%;
+    height: 80vh;
+    background-image: url(../img/um\ professor\ de\ autoescola\ na\ rua\ arrumando\ cones\ de\ transito\ azul.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-mask-image: linear-gradient(to top, transparent 0.1%, black 25%);
 }
-#divform{
-    display: flex;
-    align-items: center;
-    align-content: center;
+#titulo{
+   font-size: 5vh;
+   margin: 0px 0px 0px 20px;
 }
-/* #4895ef */
+#Subtitulo{
+color: black;
+margin: 20px;
+width: 50vh;
+height: 50vh;
+}
+#Cards{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
+margin: 10px;
+}
+#Cardaluno{
+color: black;
+margin: 20px;
+background-color: #c0c0c0;
+width: 30vh;
+height: 30vh;
+}
+#Cardinstrutor{
+    color: black;
+    margin: 20px;
+    background-color: #c0c0c0;
+    width: 30vh;
+    height: 30vh;
+}
+#CardCFC{
+    color: black;
+    margin: 20px;
+    background-color: #c0c0c0;
+    width: 30vh;
+    height: 30vh;
+}
+#Cardaula{
+    color: black;
+    margin: 20px;
+    background-color: #c0c0c0;
+    width: 30vh;
+    height: 30vh;
+}
+#Crademissao{
+    color: black;
+    margin: 20px;
+    background-color: #c0c0c0;
+    width: 30vh;
+    height: 30vh;
+}
